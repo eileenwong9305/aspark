@@ -1,0 +1,66 @@
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background: #06121f;  /* fallback for old browsers */
+  background-image: -webkit-radial-gradient(circle, #000204, #000409, #01070d, #010911, #020b14, #040f17, #05121a, #06151d, #071921, #081d24, #072227, #08262a);
+  background-image: radial-gradient(circle, #000204, #000409, #01070d, #010911, #020b14, #040f17, #05121a, #06151d, #071921, #081d24, #072227, #08262a);
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+.logo {
+    width: 100%;
+    min-width: 200px;
+}
+.desc {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+.line1 {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 0;
+}
+.line2 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+@media (max-width: 767.98px) {
+    .line1 {
+        font-size: 0.9em;
+        font-weight: 300;
+        margin: 0;
+    }
+    .line2 {
+        font-size: 1.5em;
+        font-weight: 900;
+    }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
